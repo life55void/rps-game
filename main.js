@@ -64,12 +64,15 @@ function startGame(){
    console.log("Game Result: ")
    if(humanScore===computerScore){
     console.log("Its a tie game");
+    alert("Its a time game");
    }
    else if(humanScore>computerScore){
     console.log("User wins");
+    alert("User Wins");
    }
    else{
-    console.log("COmputer wins");
+    console.log("Computer wins");
+    alert("Computer wins");
    }
 }
 
